@@ -1,0 +1,72 @@
+ASP.net 
+--------------------------------
+1.What is ASP.Net?
+
+2.In which event of page cycle is the ViewState available?
+After the Init() and before the Page_Load().
+
+3.What is the difference between Server.Transfer and Response.Redirect?
+In Server.Transfer page processing transfers from one page to the other page without making a round-trip back to the client's browser. This provides a faster response with a little less overhead on the server. The clients url history list or current url Server does not update in case of Server.Transfer.
+
+Response.Redirect is used to redirect the user's browser to another page or site. It performs trip back to the client where the client's browser is redirected to the new page. The user's browser history list is updated to reflect the new address.
+
+
+4.What are the different validators in ASP.NET?
+
+Required field Validator
+Range Validator
+Compare Validator
+Custom Validator
+Regular expression Validator
+Summary Validator
+
+
+5.Which validator control you use if you need to make sure the values in two different controls matched?
+Compare Validator control
+
+
+6. Where the viewstate is stored after the page postback?
+
+ViewState is stored in a hidden field on the page at client side. ViewState is transported to the client and back to the server, and is not stored on the server or any other external source.
+
+
+
+7.What are the different Session state management options available in ASP.NET?
+
+In-Process
+Out-of-Process.
+
+In-Process stores the session in memory on the web server.
+
+Out-of-Process Session state management stores data in an external server. The external server may be either a SQL Server or a State Server. All objects stored in session are required to be serializable for Out-of-Process state management.
+
+
+8. List the events in page life cycle.
+
+1) Page_PreInit
+2) Page_Init
+3) Page_InitComplete
+4) Page_PreLoad
+5) Page_Load
+6) Page_LoadComplete
+7) Page_PreRender
+8) Render
+
+9 Can we have a web application running without web.Config file?
+
+Yes
+
+10.. What is the good practice to implement validations in aspx page?
+
+Client-side validation is the best way to validate data of a web page. It reduces the network traffic and saves server resources.
+
+
+11. Can we have multiple web config files for an asp.net application?
+
+Yes.
+
+
+12.What is the difference between ExecuteScalar and ExecuteNonQuery?
+
+ExecuteScalar returns output value where as ExecuteNonQuery does not return any value but the number of rows affected by the query. ExecuteScalar used for fetching a single value and ExecuteNonQuery used to execute Insert and Update statements.
+
