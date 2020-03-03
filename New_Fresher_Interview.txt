@@ -1,0 +1,104 @@
+HTML, css, javascript questions 
+--------------------------------------------------------
+1.How many types of heading does an HTML contain?
+
+2.Which HTML tag is used to display the data in the tabular form?
+
+3.What are some common lists that are used when designing a page?
+-order list,unorder list,
+
+4.marque tag and iframe tag?
+
+5.How to use external JavaScript file?
+
+6.What is DOM? What is the use of document object?
+
+7.What is the difference between == and ===?
+The == operator checks equality only whereas === checks equality, and data type, i.e., a value must be of the same type.
+
+8.what is css and its type also differentitate its types
+
+9. What are JavaScript Data Types?
+Following are the JavaScript Data types:
+
+Number
+String
+Boolean
+Object
+Undefined
+
+
+10.Which keyword is used to print the text in the screen?
+document.write("Welcome") is used to print 
+
+11. css selectore
+#id
+.id
+
+12. u know bootstrap designing
+
+
+SQL questions
+----------------------------------------------------
+
+1.What is the difference between HAVING CLAUSE and WHERE CLAUSE in SQL Server?
+HAVING Clause: HAVING CLAUSE is used only with the SELECT statement. It is generally used in a GROUP BY clause in a query.
+
+
+2.Is there any difference between primary key and unique with the NOT NULL condition?
+There is no difference between primary key and unique key but, a unique key will allow single NULL, but in the primary key, no NULL is accepted.
+
+
+3.what are aggregate functions in sql
+
+4.type of joins. what is self join
+
+5. diff btween truncate and delete
+
+6. what is dml and ddl commands
+
+7. what is like operator
+
+8. diff b/w union and union all
+
+9. primary key and foreign key
+
+10. DROP command and alter command
+----------------------------------------------------------------
+OOPS questions
+---------------
+
+1.four pillars of oops
+2.class and object
+3.access specifiers
+4.polymorphismand types
+5. inheritance and types
+6. constructor and type of constructor
+7. ternary operator
+
+
+8. What is the main difference between a class and an object?
+
+An object is an instance of a class. Objects hold multiple information, but classes don’t have any information. Definition of properties and functions can be done in class and can be used by the object.
+A class can have sub-classes, while an object doesn’t have sub-objects.
+
+
+9. What is the default access modifier in a class?
+The default access modifier of a class is Private by default.
+
+10. Do we require a parameter for constructors?
+No, we do not require a parameter for constructors.
+
+
+11.Which OOPS concept is used as a reuse mechanism?
+Inheritance is the OOPS concept that can be used as a reuse mechanism.
+
+
+12. What is ‘this’ keyword?
+THIS pointer refers to the current object of a class. THIS keyword is used as a pointer which differentiates between the current object with the global object. It refers to the current object.	
+
+12. what is call by value and call by reference
+
+Call by Value – Value passed will get modified only inside the function, and it returns the same value whatever it is passed into the function.
+
+Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.	
